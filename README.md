@@ -4,9 +4,9 @@
 
 ### Data Augmentation
 
-### Hardware Setup
-
 ### Model Training
+
+### Hardware Setup
 
 ### Model Deployment
 
