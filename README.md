@@ -35,6 +35,4 @@ After all, is completed, the full mechanism for cache 4 trash is built, and atta
 
 ### Running Cache 4 Trash
 
-Following model deployment through firmware installation and OpenMV IDE, click the green button while Nicla is connected to your machine and you are currently on the 
-
-`./cache-4-trash/cache4trash/final_nicla_cache4trash.py` script. This should start the inference feedback loop. Please open the Serial monitor to see the inference results of past snapshots. 
+Following model deployment through firmware installation and OpenMV IDE, click the green button while Nicla is connected to your machine and you are currently on the `./cache-4-trash/cache4trash/final_nicla_cache4trash.py` script. This should start the inference feedback loop. Please open the Serial monitor to see the inference results of past snapshots. 
