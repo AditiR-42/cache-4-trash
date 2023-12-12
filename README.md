@@ -2,9 +2,17 @@
 
 ### Dataset Usage
 
+For recycling and non-recycling classes, refer to `/dataset`. The directory includes train and test datasets for recycling and non-recycling, as well as a folder of empty images. These images can be automatically split into train/test sets on Edge Impulse.
+
 ### Data Augmentation
 
+To use already augmented training and test data, refer to `/dataset_augmented`. To generate your own augmented data, run 
+
+`./cache4trash/data_augmentation.py` and define the `current_path` as the directory where you want to generate the augmented data.
+
 ### Model Training
+
+Upload both train and test data for all three classes (recycling, non-recycling, and empty) to Edge Impulse as an image classification task. Create an Impulse for image classification (or image transfer learning) and run the model. For better results, configure the EON Tuner to the Arduino Nicla Vision device and run it. Choose a model with high accuracy that also fits on the Nicla Vision (< 220K).
 
 ### Model Deployment and Hardware Setup
 
@@ -35,4 +43,4 @@ After all, is completed, the full mechanism for cache 4 trash is built, and atta
 
 ### Running Cache 4 Trash
 
-Following model deployment through firmware installation and OpenMV IDE, click the green button while Nicla is connected to your machine and you are currently on the `./cache-4-trash/cache4trash/final_nicla_cache4trash.py` script. This should start the inference feedback loop. Please open the Serial monitor to see the inference results of past snapshots. 
+Following model deployment through firmware installation and OpenMV IDE, click the green button while Nicla is connected to your machine and you are currently on the  `./cache-4-trash/cache4trash/final_nicla_cache4trash.py` script. This should start the inference feedback loop. Please open the Serial monitor to see the inference results of past snapshots. 
