@@ -24,6 +24,7 @@ After the light flashes and the upload is completed, press the green start butto
 
 
 For the full hardware setup, please see the circuit diagram below. 
+![Full circuit diagram of the hardware setup](digrams/circuit.png)
 
 ### Running Cache 4 Trash
 
