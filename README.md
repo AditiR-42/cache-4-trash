@@ -24,7 +24,7 @@ After the light flashes and the upload is completed, press the green start butto
 
 
 For the full hardware setup, please see the circuit diagram below. 
-![Full circuit diagram of the hardware setup](https://github.com/AditiR-42/cache-4-trash/diagrams/circuit.png)
+![Full circuit diagram of the hardware setup](https://github.com/AditiR-42/cache-4-trash/blob/master/diagrams/circuit.png)
 
 ### Running Cache 4 Trash
 
