@@ -31,6 +31,8 @@ Connect the corresponding Nicla pins to the corresponding LED lights. Additional
 
 After all, is completed, the full mechanism for cache 4 trash is built, and attaching it to a cache system on top of a trash can while attaching the motor to an electric seesaw similar to the diagram below will result in the full hardware deployment of the cache 4 trash system. 
 
+![Full circuit diagram of the hardware setup](https://github.com/AditiR-42/cache-4-trash/blob/master/diagrams/trashcan.png)
+
 ### Running Cache 4 Trash
 
 Following model deployment through firmware installation and OpenMV IDE, click the green button while Nicla is connected to your machine and you are currently on the 
