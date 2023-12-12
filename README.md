@@ -26,6 +26,11 @@ After the light flashes and the upload is completed, press the green start butto
 For the full hardware setup, please see the circuit diagram below. 
 ![Full circuit diagram of the hardware setup](https://github.com/AditiR-42/cache-4-trash/blob/master/diagrams/circuit.png)
 
+Connect the corresponding Nicla pins to the corresponding LED lights. Additionally, add manual overwrite buttons to PF_3 and PG_12 pins. Then, Attach photo-transistors (next to the two LED lights), H-bridge (with DC motor and 9V battery connected), and an external power source (or computer power cord) to the corresponding places on the Arduino MKR Zero. Additionally, compile and deploy the Arduino code in 
+`./cache-4-trash/cache4trash/cache4trash.ino` to the Arduino MKR Zero. 
+
+After all, is completed, the full mechanism for cache 4 trash is built, and attaching it to a cache system on top of a trash can while attaching the motor to an electric seesaw similar to the diagram below will result in the full hardware deployment of the cache 4 trash system. 
+
 ### Running Cache 4 Trash
 
 Following model deployment through firmware installation and OpenMV IDE, click the green button while Nicla is connected to your machine and you are currently on the 
