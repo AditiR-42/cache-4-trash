@@ -50,6 +50,7 @@ while(True):
 
     # default settings just do one detection... change them to search the image...
     for obj in net.classify(img, min_scale=1.0, scale_mul=0.8, x_overlap=0.5, y_overlap=0.5):
+        # print non-recycling, blank, and recycling chances
         print("**********\nPredictions at [x=%d,y=%d,w=%d,h=%d]" % obj.rect())
         img.draw_rectangle(obj.rect())
         # This combines the labels and confidence values into a list of tuples
@@ -61,8 +62,6 @@ while(True):
         non_recycling_chance = float(predictions_list[0][1])
         blank_chance = float(predictions_list[1][1])
         recycling_chance = float(predictions_list[2][1])
-
-        print(non_recycling_chance, blank_chance, recycling_chance)
 
         # no motion (no trash)
         if blank_chance >= recycling_chance and blank_chance >= non_recycling_chance:
